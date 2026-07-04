@@ -2929,6 +2929,7 @@ export default function OPXEnterpriseOS() {
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
   }, []);
+  
 
   const renderPage = () => {
     if (page === "operations") return (
